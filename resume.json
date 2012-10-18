@@ -1,0 +1,63 @@
+{
+	"name" : "Homer Jay Simpson",
+	"contact" : "chunkylover53@aol.com",
+	"title" : "Safety Inspector",
+	"objective" : "To be happy.",
+	"aboutme" : "I love beer, doughnuts, and all things fried.",
+	"social" : [
+		{
+			"link" : "http://www.linkedin.com/in/homerjsimpson",
+			"name" : "LinkedIn"
+		},
+		{
+			"link" : "https://twitter.com/HomerJSimpson",
+			"name" : "twitter"
+		},
+		{
+			"link" : "https://github.com/bittersweetryan/jsonmue",
+			"name" : "this.source"
+		}
+	],
+	"skills" : [
+		"Eating",
+		"Sleeping",
+		"Bowling"
+	],
+	"frameworks" : [
+		"D'oh! What's a framework?"
+	],
+	"projects" : [
+		{
+			"name" : "Boxcar Racer",
+			"technologies" : "wood, and plastic",
+			"description" : "Helped Bart build a boxcar racer, but Martin's was better."
+		}
+	],
+	"experience" : [
+		{
+			"company" : "Springfield Nuclear",
+			"link" : "",
+			"title" : "Safety Inspector",
+			"startDate" : "1989",
+			"endDate" : "Present",
+			"responsibilities" : "Build high quality web applications using JavaScript, Java, ColdFusion for our clients. I also evaluate and educate the development team on new techniques and technologies. High-level application design including technologies, frameworks, and coding practices.",
+			"achievements" : "Introduced unit testing, continuous integration, source control, and development best practices to the team.  Started the Lunch and Learn program where team members teach each other new technologies and techniques. Lead development teams of up to 5 developers on profitable development projects."
+		}
+	],
+	"speaking" : [ 
+		{
+			"title" : "Debate for Garbage Commission",
+			"location" : "Springfield Townhall",
+			"link" : "http://textiles.online.ncsu.edu/online/SilverlightPlayer/Default.aspx?peid=02c7fe6174654f96b78a6194d3dbbe9d1d"
+		}
+	],
+	"education" : [
+		{
+			"school" : "Springfield University",
+			"startDate" : "1993",
+			"endDate" : "1993",
+			"program" : "Nuclear Physics",
+			"achievements" : "Ran over dean with car, kidnapped Sir Oinks-a-lot."
+		}
+	]
+}
