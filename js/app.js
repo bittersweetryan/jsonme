@@ -47,7 +47,6 @@ window.app = (  function( window, $, snack ){
 							}
 
 							if(index === val.length-1){
-								console.log('"' + cur.substring(0,4) + '"');
 								cur = cur.replace('<li>','<li class="last">');
 							}
 
