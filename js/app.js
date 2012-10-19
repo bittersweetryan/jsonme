@@ -29,19 +29,26 @@ window.app = (  function( window, $, snack ){
 					var frag = '';
 
 					snack.each( val , function( item, index ){
-						var template = $( '#' + key + '-template' )[ 0 ];
+						var template = $( '#' + key + '-template' )[ 0 ].innerHTML
+								.replace( /^\s\s*/, '' )
+								.replace( /\s\s*$/, '' );
 
 						//template found, key is a string
 						if( template && typeof item === 'string' ){
 
-							frag = frag + template.innerHTML.replace('${' + key + '}', item );
+							frag = frag + template.replace('${' + key + '}', item );
 						}
 						else if( template && typeof item === 'object' ){
 
-							var cur = template.innerHTML;
+							var cur = template;
 
 							for( var innerKey in item ){
 								cur = cur.replace('${' + innerKey + '}', item[ innerKey ] );
+							}
+
+							if(index === val.length-1){
+								console.log('"' + cur.substring(0,4) + '"');
+								cur = cur.replace('<li>','<li class="last">');
 							}
 
 							frag = frag + cur;
