@@ -16,6 +16,17 @@ div{
 	}
 }
 
+section{
+	ul{
+		width:75%px;
+		overflow: hidden;
+	}
+	.double li{
+		float: none;
+		width: 100%;
+	}
+}
+
 nav{
 	position:relative;
 
@@ -31,6 +42,5 @@ nav{
 				border-bottom:none;
 			}
 		}
-
 	}
 }
