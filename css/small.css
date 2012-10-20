@@ -1,0 +1,9 @@
+nav ul li {
+  width: 100%;
+  display: block;
+  float: left;
+  border-bottom: 1px dashed #999999;
+  margin: 0 15px 0 15px;
+  padding: 5px 0 5px 0; }
+  nav ul li.last {
+    border-bottom: none; }

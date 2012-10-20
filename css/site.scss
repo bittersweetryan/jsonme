@@ -26,11 +26,13 @@ a{
 	color: #000;
 }
 
-section,div{
+div{
 	&.first{
 		margin-top: 55px;
 	}
+}
 
+section{
 	h2{
 		line-height: .5em;
 		font-size: 1.1em;
