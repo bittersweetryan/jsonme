@@ -3,21 +3,6 @@ window.app = (  function( window, $, snack ){
 
 	var navHeight = 0;
 
-	window.onresize = setHeaderHeight;
-
-	function setHeaderHeight(){
-
-		if( $ ( 'nav' )[ 0 ].offsetHeight === navHeight ){
-			return;
-		}
-
-		navHeight = $( 'nav' )[ 0 ].offsetHeight + 5;
-
-		if( navHeight > 45 ){
-			$( '#content>div.first' )[ 0 ].setAttribute('style', 'margin-top : ' + navHeight + 'px');
-		}
-	}
-
 	var parseData = function( data ) {
 
 		var json     = snack.parseJSON( data ),

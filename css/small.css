@@ -1,9 +1,18 @@
-nav ul li {
-  width: 100%;
-  display: block;
-  float: left;
-  border-bottom: 1px dashed #999999;
-  margin: 0 15px 0 15px;
-  padding: 5px 0 5px 0; }
-  nav ul li.last {
-    border-bottom: none; }
+body {
+  -webkit-text-size-adjust: none; }
+
+div.first {
+  margin-top: 5px; }
+  div.first span.right {
+    display: none; }
+
+nav {
+  position: relative; }
+  nav ul li {
+    width: 100%;
+    display: block;
+    border-bottom: 1px dashed #999999;
+    margin: 0 15px 0 15px;
+    padding: 5px 0 5px 0; }
+    nav ul li.last {
+      border-bottom: none; }
