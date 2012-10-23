@@ -4,7 +4,7 @@ jsonmé
 jsonmé is a simple HTML/CSS/JS application that allows you to store your resumé's contents in a json file and display it as a nicely formatted webpage. It's built using Sizzle.js and Snack.js, two small and focused libraries instead of using a multi-pupose library like jQuery.
 
 ##Usage
-The quickest way to get started is to fork this repository then rename it to <yourgithubaccountname>.github.com. Then edit the resume.JSON file to match your qualifications. GitHub will automatically generate the page for you. 
+The quickest way to get started is to fork this repository then rename it to &lt;yourgithubaccountname&gt;.github.com. Then edit the resume.JSON file to match your qualifications. GitHub will automatically generate the page for you. 
 
 ###Excluding Content
 Sections can be excluded from the output by removing them from the json file, for instance to remove "Speaking Engagements" from the output, just remove the "speaking" key from the JSON file.
