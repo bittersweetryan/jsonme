@@ -16,3 +16,8 @@ jsonmé uses two .scss files, /scss/site.scss and /scss/small.scss.  site.scss i
 
 ##demo
 http://bittersweetryan.github.com/jsonme
+
+##ToDo
+
+  * Print Stylesheet
+  * Change DD's to be stacked on mobile layout
