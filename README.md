@@ -21,5 +21,5 @@ http://bittersweetryan.github.com/jsonme
 
 ##ToDo
 
-  * Print Stylesheet
+  * ~Print Stylesheet~
   * Change DD's to be stacked on mobile layout
