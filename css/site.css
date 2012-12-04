@@ -1,3 +1,9 @@
+@media print {
+  nav {
+    display: none; }
+
+  #viewJson {
+    display: none; } }
 /* elements */
 body {
   margin: 0px;
