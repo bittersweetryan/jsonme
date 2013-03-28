@@ -18,12 +18,24 @@ div{
 
 section{
 	ul{
-		width:75%;
+		width:90%;
 		overflow: hidden;
+		margin-left: 0;
 	}
 	.double li{
 		float: none;
 		width: 100%;
+	}
+
+	.label{
+		text-align: left;
+		display: block;
+		text-overflow: ellipsis;
+	}
+
+	.content{
+		display: block;
+		margin-left: 25px;
 	}
 }
 

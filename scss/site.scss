@@ -97,7 +97,7 @@ section{
 	}
 	.double li{
 		float:left;
-		width: 50%;
+		width: 30%;
 	}
 	h1{
 		margin-bottom: 0px;
@@ -111,12 +111,20 @@ section{
 		line-height: $lineheight;
 	}
 
+	.label, .content{
+		display: inline-block;
+	}
+
 	.label{
 		font-weight: bold;
-		display: inline-block;
 		width: 150px;
 		text-align: right;
 		padding-right:.5em;
+	}
+
+	.content{
+	  vertical-align: top;
+	  width: 600px;
 	}
 
 	div{
