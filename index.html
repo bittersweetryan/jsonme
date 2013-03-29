@@ -20,7 +20,7 @@
 		</nav>
 
 		<div id="content">
-			<div class="first">
+			<div class="first" id="viewJson">
 				<span class="right"><a href="resume.json">View as JSON</a></span>
 			</div>
 
@@ -37,7 +37,7 @@
 			</section>
 
 			<section id="aboutme">
-				<h1>About Me</h1>
+				<h1>Executive Summary</h1>
 				<p data-content="aboutme"></p>
 			</section>
 
@@ -99,14 +99,20 @@
 		<script type="text/template" id="speaking-template">
 			<li>
 				<section>
-					<dl>
-						<dt class="label">Title:</dt>
-						<dd class="content">${title}<dd>
-						<dt class="label">location:</dt>
-						<dd class="content">${location}<dd>
-						<dt class="label">Link:</dt>
-						<dd class="content"><a href="${link}" target="_blank">open</a><dd>
-					</dl>
+					<ul>
+						<li>
+							<div class="label">Title:</div>
+							<div class="content">${title}</div>
+						</li>
+						<li>
+							<div class="label">location:</div>
+							<div class="content">${location}</div>
+						</li>
+						<li>
+							<div class="label">Link:</div>
+							<div class="content"><a href="${link}" target="_blank">open</a></div>
+						</li>
+					</ul>
 				</section>
 			</li>
 		</script>
@@ -114,14 +120,20 @@
 		<script type="text/template" id="projects-template">
 			<li>
 				<section>
-					<dl>
-						<dt class="label">Name:</dt>
-						<dd class="content">${name}<dd>
-						<dt class="label">Technologies:</dt>
-						<dd class="content">${technologies}<dd>
-						<dt class="label">Description:</dt>
-						<dd class="content">${description}<dd>
-					</dl>
+					<ul>
+						<li>
+							<div class="label">Name:</div>
+							<div class="content">${name}</div>
+						</li>
+						<li>
+							<div class="label">Technologies:</div>
+							<div class="content">${technologies}</div>
+						</li>
+						<li>
+							<div class="label">Description:</div>
+							<div class="content">${description}</div>
+						</li>
+					</ul>
 				</section>
 			</li>
 		</script>
@@ -129,16 +141,24 @@
 		<script type="text/template" id="education-template">
 			<li>
 				<section>
-					<dl>
-						<dt class="label">School:</dt>
-						<dd class="content">${school}<dd>
-						<dt class="label">Program:</dt>
-						<dd class="content">${program}<dd>
-						<dt class="label">Dates Attended:</dt>
-						<dd class="content">${startDate} - ${endDate}<dd>
-						<dt class="label">Achievements:</dt>
-						<dd class="content">${achievements}<dd>
-					</dl>
+					<ul>
+						<li>
+							<div class="label">School:</div>
+							<div class="content">${school}</div>
+						</li>
+						<li>
+							<div class="label">Program:</div>
+							<div class="content">${program}</div>
+						</li>
+						<li>
+							<div class="label">Dates Attended:</div>
+							<div class="content">${startDate} - ${endDate}</div>
+						</li>
+						<li>
+							<div class="label">Achievements:</div>
+							<div class="content">${achievements}</div>
+						</li>
+					</ul>
 				</section>
 			</li>
 		</script>
@@ -146,22 +166,28 @@
 		<script type="text/template" id="experience-template">
 			<li>
 				<section>
-					<dl>
-						<dt class="label">Company:</dt>
-						<dd class="content">${company}<dd>
-					
-						<dt class="label">Title:</dt>
-						<dd class="content">${title}<dd>
-					
-						<dt class="label">Tenure:</dt>
-						<dd class="content">${startDate} - ${endDate}<dd>
-					
-						<dt class="label">Responsibilities:</dt>
-						<dd class="content">${responsibilities}<dd>
-					
-						<dt class="label">Achievements:</dt>
-						<dd class="content">${achievements}<dd>
-					</dl>
+					<ul>
+                        <li>
+                            <div class="label">Company</div>
+                            <div class="content">${company}</div>
+                        </li>
+                        <li>
+                            <div class="label">Title:</div>
+                            <div class="content">${title}<div>
+                        </li>
+                        <li>
+                            <div class="label">Tenure:</div>
+                            <div class="content">${startDate} - ${endDate}</div>
+                        </li>
+                        <li>
+							<div class="label">Responsibilities:</div>
+							<div class="content">${responsibilities}<div>
+						</li>
+						<li>					
+							<div class="label">Achievements:</div>
+							<div class="content">${achievements}</div>
+						</li>
+					</ul>
 				</section>
 			</li>
 		</script>
@@ -175,20 +201,6 @@
 			snack.ready( function( ) {
 				window.app.loadData( );
 			} )
-		</script>
-
-		<script type="text/javascript">
-		
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-2411698-12']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		
 		</script>
 	</body>
 </html>
